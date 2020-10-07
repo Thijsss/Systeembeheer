@@ -1,7 +1,15 @@
 //
 // Do any local configuration here
 //
+zone "ns.slimme-rik.sb.uclllabs.be" {
+type master;
+file "/etc/bind/zones/ns.slimme-rik.sb.uclllabs.be.db";
+};
 
+zone "3.2.1.in-addr.arpa" {
+type master;
+file "/etc/bind/zones/rev.3.2.1.in-addr.arpa";
+};
 // Consider adding the 1918 zones here, if they are not used in your
 // organization
 //include "/etc/bind/zones.rfc1918";

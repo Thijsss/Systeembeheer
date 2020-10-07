@@ -1,0 +1,9 @@
+@ IN SOA ns.slimme-rik.sb.uclllabs.be. host.ns.slimme-rik.sb.uclllabs.be. (
+2010081401;
+28800;
+604800;
+604800;
+86400 );
+ 
+IN NS ns1.ns.slimme-rik.sb.uclllabs.be.
+4 IN PTR ns.slimme-rik.sb.uclllabs.be.
