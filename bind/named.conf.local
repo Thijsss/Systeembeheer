@@ -10,6 +10,13 @@ zone "3.2.1.in-addr.arpa" {
 type master;
 file "/etc/bind/zones/rev.3.2.1.in-addr.arpa";
 };
+
+zone "ns1.uclllab.be" {
+type slave;
+file "/etc/bind/zones/ns1.uclllabs.be";
+masters {193.191.177.212; };
+};
+
 // Consider adding the 1918 zones here, if they are not used in your
 // organization
 //include "/etc/bind/zones.rfc1918";

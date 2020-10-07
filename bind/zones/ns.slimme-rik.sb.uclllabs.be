@@ -8,11 +8,11 @@ $TTL 14400
 2419200 ; Expire
 604800) ; Default TTL
 ;
-domain.com. IN NS ns1.ns.slimme-rik.sb.uclllabs.be.
-domain.com. IN NS ns2.ns.slimme-rik.sb.uclllabs.be.
+ns.slimme-rik.sb.uclllabs.be. IN NS ns1.ns.slimme-rik.sb.uclllabs.be.
+ns.slimme-rik.sb.uclllabs.be. IN NS ns2.ns.slimme-rik.sb.uclllabs.be.
  
-domain.com. IN MX 10 mail.ns.slimme-rik.sb.uclllabs.be.
-domain.com. IN A 193.191.177.212
+ns.slimme-rik.sb.uclllabs.be. IN MX 10 mail.ns.slimme-rik.sb.uclllabs.be.
+ns.slimme-rik.sb.uclllabs.be. IN A 193.191.177.212
  
 ns1 IN A 193.191.177.212
 ns2 IN A 193.191.177.212
