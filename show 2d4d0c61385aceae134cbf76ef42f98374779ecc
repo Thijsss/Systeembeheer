@@ -1,0 +1,191 @@
+[33mcommit fb0329461ef23a483b3e7f02ad8fe460d5f10fd7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Tue Oct 20 22:42:47 2020 +0000
+
+    fixed sshguard... maybe?
+
+[33mcommit 18acf7155bdd7d2f13ce77fea5d81d29a8d36e47[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Tue Oct 20 12:04:27 2020 +0000
+
+    offline backup script
+
+[33mcommit ef60af1830db86043b19e0489e85a1df6b33a110[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Tue Oct 20 11:48:19 2020 +0000
+
+    fixed sshguard input iptables
+
+[33mcommit 9feb372aa67a128edd2594bcab0548b3e70e2613[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Oct 7 15:28:20 2020 +0000
+
+    ntp config
+
+[33mcommit 02f30a056680d77f05092e6fdd8916a50d6e23e1[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Oct 7 14:02:14 2020 +0000
+
+    DNS config
+
+[33mcommit 6a719ce991b9979e23946180b2bfc8cf500dbcc6[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Oct 7 14:01:25 2020 +0000
+
+    Change limited connection rate
+
+[33mcommit 5ec72ffc5c00c972b442d46e2d341cdf69b4b13a[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Oct 7 13:16:32 2020 +0000
+
+    Set ntp server
+
+[33mcommit f6ce65b0a97bce88265022b650455140a3420186[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Oct 7 13:01:31 2020 +0000
+
+    git ignore file
+
+[33mcommit 0c199a6ea559ce4855fe26db0fba82f988d0021a[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Oct 7 12:46:12 2020 +0000
+
+    installed net tools
+
+[33mcommit 78487226704bfd7313fb227b54e6b400d21c9199[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 15:50:12 2020 +0000
+
+    back.sh scripts & installed sudo, monitoring-plugins-basic packages
+
+[33mcommit 1f946dd26d90d822d248e248a9c2679c4b37d276[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 15:34:05 2020 +0000
+
+    added ipv6 of mrt to whitelist of sshguard
+
+[33mcommit f9d963693db158b91b6d5663c2d76016470b0c56[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 15:16:52 2020 +0000
+
+    incron install
+
+[33mcommit e6c5770be8641211b01ab90eec8f11de323287e4[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 15:09:09 2020 +0000
+
+    fixed locale by creating nl_BE-UTF-8
+
+[33mcommit f63cd51ade0195adce3885ba3f40842ec76f113e[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 15:08:24 2020 +0000
+
+    added mrt files to .gitignore
+
+[33mcommit bc1eb60a6aa895ad8f3a869eedeab2f6e18cfac8[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 14:52:42 2020 +0000
+
+    added ipv4 mrt to whitelist
+
+[33mcommit 177a26108974c5a845e7be617f207cecddf5c6fe[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 14:46:50 2020 +0000
+
+    ssh update
+
+[33mcommit 7e7f49c2f922efb9e6e62a04217e61b89bf016e6[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 13:53:43 2020 +0000
+
+    created backup.sh script
+
+[33mcommit 08671a43cbc1e55fd0102a1db25cae2c08670324[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 13:49:02 2020 +0000
+
+    mrt
+
+[33mcommit 45bbe41be1d65912dbaf218ab3538057d901289a[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 13:48:45 2020 +0000
+
+    changed/added locale
+
+[33mcommit 2d4d0c61385aceae134cbf76ef42f98374779ecc[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 13:48:23 2020 +0000
+
+    created en_US.UTF-8 locale lang
+
+[33mcommit d15bc4040bde1c9331517fabe4741a30c818be64[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 13:29:39 2020 +0000
+
+    added rules for ssh guard
+
+[33mcommit d8dfd1ddc407584d29acf61b269b5089c51205c6[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 13:29:18 2020 +0000
+
+    pub key acces for user check
+
+[33mcommit a29f820011fbb3a1de5896fc33e26398ab92ee36[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 13:05:41 2020 +0000
+
+    whitelist own ip added
+
+[33mcommit 4a1145b3091a9e2ad351667685d6ddebace3d6c6[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 12:51:06 2020 +0000
+
+    sshguard installed
+
+[33mcommit 4a47935fba0f80c34b550db0b537ab63f43901fa[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 30 12:36:47 2020 +0000
+
+    ssh config change & mrt
+
+[33mcommit 000c4fb946393a9bed4fa48aeaf5b222a5784951[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Tue Sep 29 15:48:34 2020 +0000
+
+    utnracked files mrt
+
+[33mcommit b24a81d260eb4b9fce34dca5fe86bf4eac6c884f[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Tue Sep 29 15:47:54 2020 +0000
+
+    ufw afgezet
+
+[33mcommit d9a96aa587e818d80a0750b68eaa4cdd14d44baa[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 23 14:33:11 2020 +0000
+
+    Disable reverse DNS lookup
+
+[33mcommit ab68d7c9a2667dbc08008fd32010fd2954866454[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 23 14:26:56 2020 +0000
+
+    Listen tcp port 22345
+
+[33mcommit 500ae41df1c0f4b6e45efb8478fc4b3d18a034c1[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 23 14:21:34 2020 +0000
+
+    Added check user
+
+[33mcommit fecf1886b3e500b39e51a476aefec4e16ccde6f3[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 23 08:39:31 2020 +0000
+
+    extra_exercises mapje
+
+[33mcommit 09cb58fd038ee87c07cb9134a5990f59f60a8219[m
+Author: thijsss <thijs-houtevels@Hotmail.com>
+Date:   Wed Sep 23 08:29:04 2020 +0000
+
+    Initial project version

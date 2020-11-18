@@ -3,5 +3,5 @@
 ff02::1		ip6-allnodes
 ff02::2		ip6-allrouters
 # --- BEGIN PVE ---
-193.191.177.212 thijs-houtevels.uclllabs.be thijs-houtevels
+193.191.177.212 thijs-houtevels.sb.uclllabs.be thijs-houtevels
 # --- END PVE ---
