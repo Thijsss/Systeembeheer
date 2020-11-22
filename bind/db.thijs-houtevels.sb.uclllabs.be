@@ -19,7 +19,8 @@ ns      IN      A       193.191.177.212
 www	IN	A	193.191.177.212
 TEST	IN	A	193.191.177.254
 ns.thijs-houtevels.sb.uclllabs.be.	IN	A	193.191.177.212
-
+secure	IN	A	193.191.177.212
+supersecure	IN	A	193.191.177.212
 
 
 
