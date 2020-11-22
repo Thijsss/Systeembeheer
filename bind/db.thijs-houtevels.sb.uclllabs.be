@@ -3,7 +3,7 @@ $TTL	300
 $ORIGIN thijs-houtevels.sb.uclllabs.be.
 @	IN	CAA	1 ISSUE "letsencrypt.org"
 @	IN	SOA	ns.thijs-houtevels.sb.uclllabs.be. root.ns.thijs-houtevels.sb.uclllabs.be. (
-			 2020112219	; Serial
+			 2020112220	; Serial
 			 300		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -22,6 +22,6 @@ ns.thijs-houtevels.sb.uclllabs.be.	IN	A	193.191.177.212
 secure	IN	A	193.191.177.212
 supersecure	IN	A	193.191.177.212
 www1	IN	A	193.191.177.212
-
+www2	IN	A	193.191.177.212
 
 @	IN	NS	localhost.
