@@ -4,5 +4,5 @@
 zone "thijs-houtevels.sb.uclllabs.be" {
       type master;
       file "/etc/bind/db.thijs-houtevels.sb.uclllabs.be";
-      allow-transfer { 193.191.177.254; 193.191.177.4;  };
+      allow-transfer { 193.191.176.254; 193.191.177.4;  };
 };
