@@ -58,3 +58,4 @@ _cvsadmin:x:117:
 check:x:1000:
 incron:x:118:
 ntp:x:119:
+bind:x:120:
