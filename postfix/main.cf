@@ -11,7 +11,7 @@ append_dot_mydomain = no
 
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-mydestination = thijs-houtevels.localdomain, localhost.localdomain, localhost
+mydestination = $myhostname, localhost.$mydomain, localhost
 relayhost = 
 mynetworks = 127.0.0.0/8
 inet_interfaces = all
@@ -22,3 +22,34 @@ compatibility_level = 2
 myorigin = /etc/mailname
 mailbox_size_limit = 0
 inet_protocols = all
+myhostname = mx.thijs-houtevels.sb.uclllabs.be
+mydomain = thijs-houtevels.sb.uclllabs.be
+myorigin = $mydomain
+inet_protocols = all
+smtpd_recipient_restrictions = permit_mynetworks,permit_sasl_authenticated,reject_unauth_destination,permit_mynetworks
+home_mailbox = Maildir/
+
+
+#TLS configuration options
+config_directory = /etc/postfix
+dovecot_destination_recipient_limit = 1
+smtp_tls_security_level = may
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+smtpd_tls_cert_file=/etc/letsencrypt/live/mail.secure.thijs-houtevels.sb.uclllabs.be/fullchain.pem
+smtpd_tls_key_file=/etc/letsencrypt/live/mail.secure.thijs-houtevels.sb.uclllabs.be/privkey.pem
+smtpd_sasl_auth_enable = yes
+smtpd_sasl_security_options = noanonymous, noplaintext
+smtpd_sasl_tls_security_options = noanonymous
+smtpd_tls_auth_only = yes
+smtpd_tls_security_level = may
+smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
+smtpd_use_tls=yes
+
+
+# Virtual mail settings
+virtual_transport = dovecot
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+virtual_mailbox_domains = mysql:/etc/postfix/virtual-mailbox-domains.conf
+virtual_mailbox_maps = mysql:/etc/postfix/virtual-mailbox-users.conf
+virtual_alias_maps = mysql:/etc/postfix/virtual-alias-maps.conf
