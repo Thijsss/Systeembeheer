@@ -32,4 +32,6 @@ gitdaemon:x:111:65534::/nonexistent:/usr/sbin/nologin
 check:x:1000:1000::/home/check:/bin/sh
 ntp:x:112:119::/nonexistent:/usr/sbin/nologin
 bind:x:113:120::/var/cache/bind:/usr/sbin/nologin
-mysql:x:114:121::/nonexistent:/bin/false
+mysql:x:114:121:MySQL Server,,,:/nonexistent:/bin/false
+dovecot:x:115:122:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
+dovenull:x:116:123::/nonexistent:/usr/sbin/nologin
