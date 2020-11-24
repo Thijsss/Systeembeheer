@@ -1,4 +1,4 @@
 driver = mysql
 connect = "host=127.0.0.1 dbname=mailserver user=mailserver password=Mailtje123..."
-default_pass_scheme = SHA512-CRYPT
+default_pass_scheme = SHA512
 password_query = SELECT Email as User, password FROM virtual_mailboxes WHERE Email='%u';
