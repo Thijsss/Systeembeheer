@@ -62,4 +62,6 @@ bind:!::
 mysql:!::
 dovecot:!::
 dovenull:!::
-vmail:!::
+vmail:!::vmail
+wireshark:!::
+ftp:!::
