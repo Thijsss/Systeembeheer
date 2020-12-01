@@ -17,9 +17,9 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 # Cmnd alias specification
 
 
-check ALL=(ALL:ALL) NOPASSWD: /etc/scripts/dns_add_zone
-check ALL=(ALL:ALL) NOPASSWD: /etc/scripts/dns_add_record
-check ALL=(ALL:ALL) NOPASSWD: /etc/scripts/http_add_vhost
+#check ALL=(ALL:ALL) NOPASSWD: /etc/scripts/dns_add_zone
+#check ALL=(ALL:ALL) NOPASSWD: /etc/scripts/dns_add_record
+#check ALL=(ALL:ALL) NOPASSWD: /etc/scripts/http_add_vhost
 
 
 # User privilege specification
@@ -35,5 +35,5 @@ root	ALL=(ALL:ALL) ALL
 
 #includedir /etc/sudoers.d
 #check ALL=NOPASSWD: /usr/sbin/arp
-check ALL=NOPASSWD: /usr/lib/nagios/plugins/check_apt, /usr/sbin/arp
+check ALL=NOPASSWD: /usr/lib/nagios/plugins/check_apt, /usr/sbin/arp,/etc/scripts/dns_add_zone, /etc/scripts/dns_add_record,/etc/scripts/http_add_vhost
 
