@@ -1,9 +1,11 @@
 ; Zone file for thijs-houtevels.sb.uclllabs.be
 $TTL	300		
+$INCLUDE Kthijs-houtevels.sb.uclllabs.be.+007+46590.key
+$INCLUDE Kthijs-houtevels.sb.uclllabs.be.+007+60339.key
 $ORIGIN thijs-houtevels.sb.uclllabs.be.
 @	IN	CAA	1 ISSUE "letsencrypt.org"
 @	IN	SOA	ns.thijs-houtevels.sb.uclllabs.be. root.ns.thijs-houtevels.sb.uclllabs.be. (
-			                                      2020112520        ;Serial
+			                                      2020112498        ;Serial
 			 300		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -124,25 +126,3 @@ subzoneebie2u      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
 subzoneoj2ieb      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
 subzoneeth1va      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
 subzonecaim2v      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonewori1b      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonevah2ei      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneiez6ae      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonechoh1k      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneeis1eu      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonezar8ai      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneuj0ohl      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneciex1y      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneku1joo      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneaeb7ah      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneoong7a      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonewee1oh      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonetie6do      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonejie9su      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneuziwi5      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneaiy4ni      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonechei8e      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneeetee8      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonesae2ie      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneteite9      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzoneyohp5s      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
-subzonezohf9o      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.

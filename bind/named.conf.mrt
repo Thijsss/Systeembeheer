@@ -502,3 +502,135 @@ zone "subzonecaim2v.thijs-houtevels.sb.uclllabs.be" {
   allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
 };
 
+zone "subzonewori1b.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonewori1b.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonevah2ei.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonevah2ei.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneiez6ae.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneiez6ae.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonechoh1k.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonechoh1k.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneeis1eu.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneeis1eu.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonezar8ai.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonezar8ai.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneuj0ohl.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneuj0ohl.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneciex1y.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneciex1y.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneku1joo.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneku1joo.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneaeb7ah.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneaeb7ah.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneoong7a.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneoong7a.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonewee1oh.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonewee1oh.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonetie6do.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonetie6do.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonejie9su.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonejie9su.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneuziwi5.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneuziwi5.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneaiy4ni.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneaiy4ni.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonechei8e.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonechei8e.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneeetee8.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneeetee8.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonesae2ie.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonesae2ie.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneteite9.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneteite9.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzoneyohp5s.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzoneyohp5s.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+
+zone "subzonezohf9o.thijs-houtevels.sb.uclllabs.be" {
+  type master;
+  file "/etc/bind/db.subzonezohf9o.thijs-houtevels.sb.uclllabs.be";
+  allow-transfer { 193.191.176.254; 193.191.177.4;127.0.0.1;};
+};
+

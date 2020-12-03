@@ -3,6 +3,6 @@
 //
 zone "thijs-houtevels.sb.uclllabs.be" {
       type master;
-      file "/etc/bind/thijs-houtevels.sb.uclllabs.be.zone.signed";
+      file "/etc/bind/zones/db.thijs-houtevels.sb.uclllabs.be.signed";
       allow-transfer { 193.191.176.254; 193.191.177.4;  };
 };
