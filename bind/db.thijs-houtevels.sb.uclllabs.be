@@ -3,7 +3,7 @@ $TTL	300
 $ORIGIN thijs-houtevels.sb.uclllabs.be.
 @	IN	CAA	1 ISSUE "letsencrypt.org"
 @	IN	SOA	ns.thijs-houtevels.sb.uclllabs.be. root.ns.thijs-houtevels.sb.uclllabs.be. (
-			                                      2020112520        ;Serial
+			                                      2020112576        ;Serial
 			 300		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -146,3 +146,59 @@ subzonesae2ie      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
 subzoneteite9      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
 subzoneyohp5s      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
 subzonezohf9o      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneounuo9      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneeeng8j      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonewo0cei      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneeeth1o      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneiekea9      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneaim2mo      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneaik1ie      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonete3mei      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneaetoh2      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonezie4ah      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneusa6ei      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneahv7op      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonecah9cu      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonevuto7i      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneohf3oo      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneeirur3      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonelawaa4      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneohm1pi      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonenae1ch      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneaemoi0      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonequae4d      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonefuel6b      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonequiu2l      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonethoog7      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneex5eze      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneeike0f      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonewee3ee      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneiisee5      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonepoos3i      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneveire9      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneing8bi      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonesoo8ef      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonenee5ai      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneen3euw      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonesou0ia      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneahrie3      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonethepo7      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneee5lee      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonexoo1oo      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneta3eik      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneeeh7ah      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneiesh3e      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneoa1zap      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneioz0oi      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneauph7k      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonecaez0i      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneoof5ei      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneohb4za      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonexahxu8      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneief3th      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonemaij3a      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneiev4ch      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneahvai6      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzonereu5xo      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneeeyo0p      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.
+subzoneup2ohg      IN      NS      ns.thijs-houtevels.sb.uclllabs.be.

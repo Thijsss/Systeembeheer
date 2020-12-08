@@ -37,4 +37,10 @@ dovecot:x:115:122:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
 dovenull:x:116:123:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
 vmail:x:5000:5000::/home/vmail/:/bin/sh
 ftp:x:117:125:ftp daemon,,,:/srv/ftp:/usr/sbin/nologin
-mystery1_2014:x:1001:1001::/home/mystery1_2014:/bin/bash
+mystery1_2014:x:1001:1001:,,,:/home/mystery1_2014:/bin/bash
+dnsmasq:x:118:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+freerad:x:119:126::/etc/freeradius:/usr/sbin/nologin
+n2n:x:998:997::/home/n2n:/bin/false
+redis:x:120:127::/var/lib/redis:/usr/sbin/nologin
+ntopng:x:997:996::/home/ntopng:/bin/false
+grafana:x:121:128::/usr/share/grafana:/bin/false

@@ -28,7 +28,7 @@ list:*::
 irc:*::
 src:*::
 gnats:*::
-shadow:*::
+shadow:*::freerad
 utmp:*::
 video:*::
 sasl:*::
@@ -40,7 +40,7 @@ nogroup:*::
 crontab:!::
 messagebus:!::
 syslog:!::
-ssl-cert:!::
+ssl-cert:!::freerad
 input:!::
 kvm:!::
 render:!::
@@ -65,3 +65,10 @@ dovenull:!::
 vmail:!::vmail
 wireshark:!::
 ftp:!::
+mystery1_2014:!::
+docker:!::
+freerad:!::
+n2n:!::
+redis:!::
+ntopng:!::
+grafana:!::
